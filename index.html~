@@ -85,10 +85,13 @@
 				//tt05 harus img/ccll.gif
 				//tt07 harus img/cclr.gif
 				//lainnya bebas terserah
-				if((komponen_is_blank == true) && $('#tt01').attr('src') == 'img/ccul.gif'
-				&& $('#tt03').attr('src') == 'img/ccur.gif' && $('#tt05').attr('src') == 'img/ccll.gif'
-				&& $('#tt07').attr('src') == 'img/cclr.gif'){
-					alert('benar!');
+				if(komponen_is_blank == true){
+					
+					console.log($('#tt01').attr('src'));
+					console.log($('#tt03').attr('src'));
+					console.log($('#tt05').attr('src'));
+					console.log($('#tt07').attr('src'));
+					
 				}
 			}
 		</script>
